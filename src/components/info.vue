@@ -1,13 +1,19 @@
 <template>
     <div>
-        <h2><i class="el-icon-message"></i> About you</h2>
-        <p><i class="el-icon-circle-check-outline"></i><span> 学号：</span>{{$store.state.form.id}}</p>
+        <h2><i class="el-icon-message"></i> About You</h2>
+        <p><i class="el-icon-caret-right"></i><span> 姓名：</span>{{$store.state.form.name}}</p>
         <hr/>
-        <p><i class="el-icon-circle-check-outline"></i><span> 姓名：</span>{{$store.state.form.name}}</p>
+        <p><i class="el-icon-caret-right"></i><span> 性别：</span>{{$store.state.form.gender}}</p>
         <hr/>
-        <p><i class="el-icon-circle-check-outline"></i><span> 性别：</span>{{$store.state.form.gender}}</p>
+        <p><i class="el-icon-caret-right"></i><span> 生日：</span>{{$store.state.form.birthday}}</p>
         <hr/>
-        <p><i class="el-icon-circle-check-outline"></i><span> 专业：</span>{{$store.state.form.major}}</p>
+        <p><i class="el-icon-caret-right"></i><span> 地区：</span>{{$store.state.form.region}}</p>
+        <hr/>
+        <p><i class="el-icon-caret-right"></i><span> 职位：</span>{{$store.state.form.job}}</p>
+        <hr/>
+        <p><i class="el-icon-caret-right"></i><span> 邮箱：</span>{{$store.state.form.email}}</p>
+        <hr/>
+        <p><i class="el-icon-caret-right"></i><span> 简介：</span>{{$store.state.form.introduction}}</p>
         <hr/>
     </div>
     
@@ -20,22 +26,26 @@ export default {
 
 <style scoped>
 div{
+    color:#50616d;
     width:45%;
     margin:0 auto;
-    border:1px solid #409EFF;
+    border:1px solid #50616d;
     border-radius:6px;
     padding:20px;
     margin-top:100px;
+    padding-bottom:45px;
 }
 hr{
     height:1px;
     border:none;
-    background-color:#409EFF;
+    background-color:#789262;
 }
 i{
-    color:#409EFF;
+    color:#88ada6;
 }
 p{
+    padding-top:30px;
+   padding-bottom:8px;
     font-size:0.8em;
 }
 h2{

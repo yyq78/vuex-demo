@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <h1> My Vue.js App</h1>
-    <!--<img src="./assets/logo.png">-->
     <transition>
       <router-view></router-view>
     </transition>
@@ -15,9 +13,11 @@ export default {
 </script>
 
 <style>
-h1 {
-    font-size:2em;
-    text-align: center;
-    color:#409EFF;
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color:#e0eee8;
 }
 </style>

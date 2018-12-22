@@ -5,9 +5,11 @@ export default new vuex.Store({
   state: {
       form: {
               name: '',
-              id: '',
               gender: '',
-              major: ''
+              birthday:'',
+              region:'',
+              email:'',
+              introduction:''
           }
   },
   mutations: {
